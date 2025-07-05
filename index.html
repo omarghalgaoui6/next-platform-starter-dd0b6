@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OmarDraws - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #ffffff;
+    }
+    p.tagline {
+      font-style: italic;
+      color: #cccccc;
+      margin-top: 0.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      width: 90%;
+      max-width: 1200px;
+      padding: 2rem 0;
+    }
+    .gallery-item {
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+    .gallery-item img {
+      width: 100%;
+      display: block;
+    }
+    footer {
+      margin: 2rem 0;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OmarDraws</h1>
+    <p class="tagline">
+      "Art exists so that truth doesn't destroy us. Through ink and silence, I draw what words cannot bear. Welcome to the fragments of thought, emotion, and chaos—unfiltered and untamed."
+    </p>
+  </header>
+
+  <section class="gallery">
+    <div class="gallery-item">
+      <img src="https://files.catbox.moe/7xtnkh.jpg" alt="Masked manga character sketch" />
+    </div>
+    <div class="gallery-item">
+      <img src="https://files.catbox.moe/9yjjce.jpg" alt="Flame warrior with beast" />
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 OmarDraws | Portfolio Website
+  </footer>
+</body>
+</html>
